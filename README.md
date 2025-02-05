@@ -53,6 +53,10 @@ To try out the YouTube Audio Merger tool without any local setup, open the noteb
 
 Contributions are welcome! If you have ideas, bug fixes, or enhancements, feel free to open an issue or submit a pull request.
 
+**to do:**
+-add cover art (from first video thumbnail) and mp3 title tag
+-fix title (should always be playlist title instead of the first video title)
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
