@@ -23,9 +23,7 @@ A simple tool for downloading audio from one or more YouTube videos or playlists
 
 To try out the YouTube Audio Merger tool without any local setup, open the notebook on Google Colab using the link below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/your-colab-notebook-id)
-
-*Replace `your-colab-notebook-id` in the URL above with the actual notebook ID or link for your project.*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/list-to-mp3/blob/main/list_to_mp3.ipynb)
 
 ## How It Works
 
