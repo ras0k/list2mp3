@@ -38,7 +38,9 @@ To try out the YouTube Audio Merger tool without any local setup, open the noteb
 - **ffmpeg:**
 Merges the downloaded MP3 files using a generated file list:
 
-ffmpeg -f concat -safe 0 -i file_list.txt -c copy 'merged_audio.mp3'
+  ```bash
+  ffmpeg -f concat -safe 0 -i file_list.txt -c copy 'merged_audio.mp3'
+  ```
 
 - **Playlist Title Sanitization:**
 The tool attempts to extract and sanitize the playlist title to generate a safe output file name.
