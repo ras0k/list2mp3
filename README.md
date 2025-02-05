@@ -33,3 +33,21 @@ To try out the YouTube Audio Merger tool without any local setup, open the noteb
   Downloads the audio from the provided URLs using:
   ```bash
   yt-dlp -x --audio-format mp3 -o '%(playlist_index)s_%(title)s.%(ext)s' <URL>
+  ```
+
+- **ffmpeg:**
+Merges the downloaded MP3 files using a generated file list:
+
+ffmpeg -f concat -safe 0 -i file_list.txt -c copy 'merged_audio.mp3'
+
+- **Playlist Title Sanitization:**
+The tool attempts to extract and sanitize the playlist title to generate a safe output file name.
+
+
+## Contributing
+
+Contributions are welcome! If you have ideas, bug fixes, or enhancements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
