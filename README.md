@@ -57,8 +57,6 @@ Contributions are welcome! If you have ideas, bug fixes, or enhancements, feel f
 
 - *add cover art (from first video thumbnail) and mp3 title tag*
 - *fix title (should always be playlist title instead of the first video title sometimes)*
-- *fix bug where not all videos are downloaded*
-- *default to T4 instance for better odds with yt-dlp and youtube's bot prevention*
 
 ## License
 
