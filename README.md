@@ -55,7 +55,7 @@ Contributions are welcome! If you have ideas, bug fixes, or enhancements, feel f
 
 #### *TO-DO:*
 
-- *add cover art (from first video thumbnail) and mp3 title tag*
+- *add cover art (from first video thumbnail) and mp3 title and artist tag*
 - *fix title (should always be playlist title instead of the first video title sometimes)*
 
 ## License
