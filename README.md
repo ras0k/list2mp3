@@ -99,6 +99,7 @@ Contributions are welcome! If you have ideas, bug fixes, or enhancements, feel f
 
 - *Further improvements to metadata extraction*
 - *Additional customization options for audio quality and output settings*
+- *Automatic chapters should be added to metadata, similar to what [Seal](https://github.com/JunkFood02/Seal) does with YouTube chapters*
 
 ## License
 
