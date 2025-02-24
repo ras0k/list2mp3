@@ -55,15 +55,15 @@ To try out the YouTube Audio Merger tool without any local setup, open the noteb
 
   Crops the downloaded thumbnail to a centered square:
   ```bash
-  ffmpeg \-y \-i cover.jpg \-vf "crop=min(iw\\,ih):min(iw\\,ih):(iw-min(iw\\,ih))/2:(ih-min(iw\\,ih))/2" cropped\_cover.jpg
+  ffmpeg -y -i cover.jpg -vf "crop=min(iw,ih):min(iw,ih):(iw-min(iw,ih))/2:(ih-min(iw,ih))/2" cropped_cover.jpg
   ```
   Embeds the cropped thumbnail along with metadata:
   ```bash
-  ffmpeg \-i "merged\_audio.mp3" \-i cropped\_cover.jpg \-map 0 \-map 1 \-c copy \-id3v2\_version 3 \\
+  ffmpeg -i "merged_audio.mp3" -i cropped_cover.jpg -map 0 -map 1 -c copy -id3v2_version 3 
         
-  \-metadata title\="<Output Name>" \-metadata artist\="<Channel Name>" \\
+  -metadata title="<Output Name>" -metadata artist="<Channel Name>" 
         
-  \-metadata:s:v title\="Album cover" \-metadata:s:v comment\="Cover (front)" "temp\_<Output Name>.mp3"
+  -metadata:s:v title="Album cover" -metadata:s:v comment="Cover (front)" "temp_<Output Name>.mp3"
   ```
 -   **Playlist Title Sanitization:**
     
