@@ -14,18 +14,18 @@ A simple tool for downloading audio from one or more YouTube  playlists and/or v
 
 - **Merge Audio:**  
   Downloads audio tracks from multiple URLs and merges them into a single MP3 file using ffmpeg.
-
-- **Interactive UI:**  
-  Uses ipywidgets to offer a simple, interactive interface in a Jupyter Notebook or Google Colab.
-
-- **Verbose Logging:**  
-  Provides detailed status messages during the download and merge process to help diagnose issues.
     
 -   **URL Transformation:**  
     Automatically transforms YouTube watch URLs that include a playlist parameter into proper playlist URLs.
     
 -   **Metadata Integration with Cropped Cover Art:**  
     Extracts metadata from the first video in a playlist to set the MP3 title and artist tag. Downloads the first video’s thumbnail, crops it to a centered square (losing the sides), and embeds it as the cover art.
+
+- **Interactive UI:**  
+  Uses ipywidgets to offer a simple, interactive interface in a Jupyter Notebook or Google Colab.
+
+- **Verbose Logging:**  
+  Provides detailed status messages during the download and merge process to help diagnose issues.
 
 -   **Folder Cleanup:**  
     Clears out previous temporary files (audio files, file lists, cover images) at the start so the notebook can be run multiple times without interference.
