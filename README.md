@@ -1,4 +1,4 @@
-# list-to-mp3 : A Universal Audio Merger
+# list2mp3 : A Universal Audio Merger
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/list-to-mp3/blob/main/list_to_mp3.ipynb)
 
