@@ -1,6 +1,6 @@
 # list2mp3 : A Universal Audio Merger
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/list2mp3/blob/main/list2mp3_v2.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/list2mp3/blob/main/list2mp3.ipynb)
 
 A simple tool for downloading audio from one or more YouTube  playlists and/or videos and merging them into a single MP3 file. This project uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) for downloading and [ffmpeg](https://ffmpeg.org/) for merging audio files. The interface is built using [ipywidgets](https://ipywidgets.readthedocs.io/) to provide a user-friendly experience within a Jupyter Notebook or Google Colab.
 
@@ -34,7 +34,7 @@ A simple tool for downloading audio from one or more YouTube  playlists and/or v
 
 To try out the YouTube Audio Merger tool without any local setup, open the notebook on Google Colab using the link below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/list2mp3/blob/main/list2mp3_v2.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ras0k/list2mp3/blob/main/list2mp3.ipynb)
 
 ## How It Works
 
