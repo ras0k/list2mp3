@@ -71,6 +71,10 @@ To try out the YouTube Audio Merger tool without any local setup, open the noteb
 
 ## Changelog
 
+### v2.1 (2025-03-01)
+
+- **Artist Name Improvement:** Removes " - Topic" from the end of the artist name.
+
 ### v2.0 (2025-02-24)
 
 -   **Folder Cleanup:** Added a function to clear temporary files before each run.
