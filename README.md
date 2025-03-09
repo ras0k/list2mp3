@@ -71,6 +71,11 @@ To try out the YouTube Audio Merger tool without any local setup, open the noteb
 
 ## Changelog
 
+### v2.2 (2025-03-09)
+
+- **Album Cover Improvement:**
+Checks all the thumbnails and chooses the most frequent one (for cases like when the first song has a music video)
+
 ### v2.1 (2025-03-01)
 
 - **Artist Name Improvement:** Removes " - Topic" from the end of the artist name.
