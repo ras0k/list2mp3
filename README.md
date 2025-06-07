@@ -18,8 +18,10 @@ A simple tool for downloading audio from one or more YouTube  playlists and/or v
 -   **URL Transformation:**  
     Automatically transforms YouTube watch URLs that include a playlist parameter into proper playlist URLs.
     
--   **Metadata Integration with Cropped Cover Art:**  
+-   **Metadata Integration with Cropped Cover Art:**
     Extracts metadata from the first video in a playlist to set the MP3 title and artist tag. Downloads the first video’s thumbnail, crops it to a centered square (losing the sides), and embeds it as the cover art.
+-   **Opus Export with Chapters:**
+    After creating the MP3, the notebook also creates an `.opus` version with the same metadata and embedded cover art. Each downloaded video becomes its own chapter in the Opus file.
 
 - **Interactive UI:**  
   Uses ipywidgets to offer a simple, interactive interface in a Jupyter Notebook or Google Colab.
@@ -71,6 +73,10 @@ To try out the YouTube Audio Merger tool without any local setup, open the noteb
 
 ## Changelog
 
+### v2.3 (2025-06-07)
+
+- **Opus Output with Chapters:** Automatically converts the merged MP3 into an `.opus` file, preserving cover art and adding a chapter for each video.
+
 ### v2.2 (2025-03-09)
 
 - **Album Cover Improvement:**
@@ -108,7 +114,6 @@ Contributions are welcome! If you have ideas, bug fixes, or enhancements, feel f
 
 - *Further improvements to metadata extraction*
 - *Additional customization options for audio quality and output settings*
-- *Automatic chapters should be added to metadata, similar to what [Seal](https://github.com/JunkFood02/Seal) does with YouTube chapters, but with each video as one chapter instead. This change would probably require using .opus format instead of .mp3*
 
 ## License
 
